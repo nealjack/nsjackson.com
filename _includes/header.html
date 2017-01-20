@@ -2,8 +2,8 @@
   <div class="mdl-layout__header-row">
     <!-- Title -->
     <span class="mdl-layout-title">{{ site.title }}</span>
-      
-   
+
+
     <!-- Add spacer, to align navigation to the right -->
     <div class="mdl-layout-spacer"></div>
     <!-- Navigation. We hide it in small screens. -->
@@ -13,16 +13,17 @@
         <a class="mdl-navigation__link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
         {% endif %}
       {% endfor %}
+        <a class="mdl-navigation__link" target="_blank" href="cv/NealJacksonCV.pdf">CV</a>
     </nav>
 
     <a target="_blank" href="https://github.com/{{ site.username }}"><span class="mdl-button mdl-js-button mdl-button--icon icon">{% include icon-github.svg %}</span></a>
 
-    <a target="_blank" href="https://bitbucket.com/{{ site.username }}"><span class="mdl-button mdl-js-button mdl-button--icon icon">{% include icon-bitbucket.svg %}</span></a>
-  
+    <script>/*<a target="_blank" href="https://bitbucket.com/{{ site.username }}"><span class="mdl-button mdl-js-button mdl-button--icon icon">{% include icon-bitbucket.svg %}</span></a>*/</script>
+
   </div>
 </header>
-  
-<div class="mdl-layout__drawer">
+
+<!--<div class="mdl-layout__drawer">
   <span class="mdl-layout-title">{{ site.title }}</span>
   <nav class="mdl-navigation">
       {% for node in site.pages %}
@@ -31,4 +32,4 @@
         {% endif %}
       {% endfor %}
   </nav>
-</div>
+  </div>--!>
