@@ -10,7 +10,9 @@
     <nav class="mdl-navigation mdl-layout--large-screen-only">
       {% for node in site.pages %}
         {% if node.title %}
+        {% if node.title != 'hw0' %}
         <a class="mdl-navigation__link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+        {% endif %}
         {% endif %}
       {% endfor %}
         <a class="mdl-navigation__link" target="_blank" href="cv/NealJacksonCV.pdf">CV</a>

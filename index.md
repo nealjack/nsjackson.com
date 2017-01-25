@@ -7,7 +7,7 @@ title: About
   <img style="width:95%" src="./static/me.jpg">
 </div>
 <div class="mdl-cell mdl-cell--6-col" markdown="1">
-#### Hi, I'm Neal Jackson,a first year PhD student at the University of California, Berkeley.
+#### Hi, I'm Neal Jackson, a first year PhD student at the University of California, Berkeley.
   I work as a Research Assistant with Prabal Dutta and [Lab11](http://lab11.eecs.umich.edu/).
   My research is focused on enabling ubiquitous sensing with low power embedded
   devices. Most recently, I've been working on the
