@@ -14,7 +14,7 @@ title: About
   [Signpost](https://github.com/lab11/signpost) project, an effort to develop a
   modular, easily deployable, and user-friendly sensor node to enable city-wide
   sensing, research, and applications. I've also developed the
-  [GAP](http://lab11.eecs.umich.edu/GAP) (Generic Access Point), a gateway for
+  [GAP](http://github.com/lab11/GAP) (Generic Access Point), a gateway for
   resource constrained embedded devices.
 
 </div>
